@@ -121,6 +121,7 @@ public class MyKeyPoolKeyboard : MonoBehaviour
     public Sprite t;
     public Sprite u;
     public Sprite v;
+    public Sprite w;
     public Sprite x;
     public Sprite y;
     public Sprite z;

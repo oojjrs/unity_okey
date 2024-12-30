@@ -3,9 +3,9 @@
 public class MyKeyPoolMouse : MonoBehaviour
 {
     public Sprite DirectionDown;
-    public Sprite DirectionUp;
     public Sprite DirectionLeft;
     public Sprite DirectionRight;
+    public Sprite DirectionUp;
     public Sprite LeftButton;
     public Sprite MiddleButton;
     public Sprite RightButton;

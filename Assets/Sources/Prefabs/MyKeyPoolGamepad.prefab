@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5303206698190938431
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4737216660328697112}
+  - component: {fileID: -6889598461151510774}
+  m_Layer: 0
+  m_Name: MyKeyPoolGamepad
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4737216660328697112
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5303206698190938431}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-6889598461151510774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5303206698190938431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6834acd6172367448825a928d4d3743d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ButtonEast: {fileID: 0}
+  ButtonNorth: {fileID: 0}
+  ButtonSouth: {fileID: 0}
+  ButtonWest: {fileID: 0}
+  DPadDown: {fileID: 0}
+  DPadLeft: {fileID: 0}
+  DPadRight: {fileID: 0}
+  DPadUp: {fileID: 0}
+  LeftStick: {fileID: 0}
+  LeftStickPress: {fileID: 0}
+  LeftStickLeft: {fileID: 0}
+  LeftStickRight: {fileID: 0}
+  LeftStickDown: {fileID: 0}
+  LeftStickUp: {fileID: 0}
+  LeftBumper: {fileID: 0}
+  LeftTrigger: {fileID: 0}
+  LeftPad: {fileID: 0}
+  Left3: {fileID: 0}
+  Left4: {fileID: 0}
+  Left5: {fileID: 0}
+  RightStick: {fileID: 0}
+  RightStickPress: {fileID: 0}
+  RightStickLeft: {fileID: 0}
+  RightStickRight: {fileID: 0}
+  RightStickDown: {fileID: 0}
+  RightStickUp: {fileID: 0}
+  RightBumper: {fileID: 0}
+  RightTrigger: {fileID: 0}
+  RightPad: {fileID: 0}
+  Right3: {fileID: 0}
+  Right4: {fileID: 0}
+  Right5: {fileID: 0}
+  Select: {fileID: 0}
+  Start: {fileID: 0}

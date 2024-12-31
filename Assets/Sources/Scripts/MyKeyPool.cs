@@ -35,106 +35,107 @@ public class MyKeyPool : MonoBehaviour
             "<Keyboard>/printScreen" => GetSprite(MyInput.Keyboard.PrintScreen),
             "<Keyboard>/scrollLock" => GetSprite(MyInput.Keyboard.ScrollLock),
             "<Keyboard>/pause" => GetSprite(MyInput.Keyboard.Pause),
-            "<Keyboard>/backquote" or "<Keyboard>/#(`)" => GetSprite(MyInput.Keyboard.Backtick),
-            "<okey>/Tilde" => GetSprite(MyInput.Keyboard.Tilde),
-            "<Keyboard>/1" or "<Keyboard>/#(1)" => GetSprite(MyInput.Keyboard._1),
-            "<okey>/ExclamationMark" => GetSprite(MyInput.Keyboard.ExclamationMark),
-            "<Keyboard>/2" or "<Keyboard>/#(2)" => GetSprite(MyInput.Keyboard._2),
-            "<okey>/At" => GetSprite(MyInput.Keyboard.At),
-            "<Keyboard>/3" or "<Keyboard>/#(3)" => GetSprite(MyInput.Keyboard._3),
-            "<okey>/NumberSign" => GetSprite(MyInput.Keyboard.NumberSign),
-            "<Keyboard>/4" or "<Keyboard>/#(4)" => GetSprite(MyInput.Keyboard._4),
-            "<okey>/DollarSign" => GetSprite(MyInput.Keyboard.DollarSign),
-            "<Keyboard>/5" or "<Keyboard>/#(5)" => GetSprite(MyInput.Keyboard._5),
-            "<okey>/PercentSign" => GetSprite(MyInput.Keyboard.PercentSign),
-            "<Keyboard>/6" or "<Keyboard>/#(6)" => GetSprite(MyInput.Keyboard._6),
-            "<okey>/Caret" => GetSprite(MyInput.Keyboard.Caret),
-            "<Keyboard>/7" or "<Keyboard>/#(7)" => GetSprite(MyInput.Keyboard._7),
-            "<okey>/Ampersand" => GetSprite(MyInput.Keyboard.Ampersand),
-            "<Keyboard>/8" or "<Keyboard>/#(8)" => GetSprite(MyInput.Keyboard._8),
-            "<okey>/Asterisk" or "<Keyboard>/#(*)" => GetSprite(MyInput.Keyboard.Asterisk),
-            "<Keyboard>/9" or "<Keyboard>/#(9)" => GetSprite(MyInput.Keyboard._9),
-            "<okey>/ParenthesisLeft" => GetSprite(MyInput.Keyboard.ParenthesisLeft),
-            "<Keyboard>/0" or "<Keyboard>/#(0)" => GetSprite(MyInput.Keyboard._0),
-            "<okey>/ParenthesisRight" => GetSprite(MyInput.Keyboard.ParenthesisRight),
-            "<Keyboard>/minus" or "<Keyboard>/#(-)" => GetSprite(MyInput.Keyboard.Minus),
-            "<okey>/LowLine" => GetSprite(MyInput.Keyboard.LowLine),
-            "<Keyboard>/equals" or "<Keyboard>/#(=)" => GetSprite(MyInput.Keyboard.Equals),
-            "<okey>/Plus" or "<Keyboard>/#(+)" => GetSprite(MyInput.Keyboard.Plus),
-            "<Keyboard>/backslash" or "<Keyboard>/#(\\)" => GetSprite(MyInput.Keyboard.Backslash),
-            "<okey>/VerticalBar" => GetSprite(MyInput.Keyboard.VerticalBar),
+            "<Keyboard>/backquote" or
+            "<Keyboard>/#(`)" => GetSprite(MyInput.Keyboard.Backtick),
+            "<Keyboard>/1" or
+            "<Keyboard>/#(1)" => GetSprite(MyInput.Keyboard._1),
+            "<Keyboard>/2" or
+            "<Keyboard>/#(2)" => GetSprite(MyInput.Keyboard._2),
+            "<Keyboard>/3" or
+            "<Keyboard>/#(3)" => GetSprite(MyInput.Keyboard._3),
+            "<Keyboard>/4" or
+            "<Keyboard>/#(4)" => GetSprite(MyInput.Keyboard._4),
+            "<Keyboard>/5" or
+            "<Keyboard>/#(5)" => GetSprite(MyInput.Keyboard._5),
+            "<Keyboard>/6" or
+            "<Keyboard>/#(6)" => GetSprite(MyInput.Keyboard._6),
+            "<Keyboard>/7" or
+            "<Keyboard>/#(7)" => GetSprite(MyInput.Keyboard._7),
+            "<Keyboard>/8" or
+            "<Keyboard>/#(8)" => GetSprite(MyInput.Keyboard._8),
+            "<Keyboard>/9" or
+            "<Keyboard>/#(9)" => GetSprite(MyInput.Keyboard._9),
+            "<Keyboard>/0" or
+            "<Keyboard>/#(0)" => GetSprite(MyInput.Keyboard._0),
+            "<Keyboard>/minus" or
+            "<Keyboard>/#(-)" => GetSprite(MyInput.Keyboard.Minus),
+            "<Keyboard>/equals" or
+            "<Keyboard>/#(=)" => GetSprite(MyInput.Keyboard.Equals),
+            "<Keyboard>/backslash" or
+            "<Keyboard>/#(\\)" => GetSprite(MyInput.Keyboard.Backslash),
             "<Keyboard>/tab" => GetSprite(MyInput.Keyboard.Tab),
             "<Keyboard>/enter" => GetSprite(MyInput.Keyboard.Enter),
             "<Keyboard>/space" => GetSprite(MyInput.Keyboard.Space),
-            "<Keyboard>/quote" or "<Keyboard>/#(')" => GetSprite(MyInput.Keyboard.SingleQuotation),
-            "<okey>/DoubleQuotation" => GetSprite(MyInput.Keyboard.DoubleQuotation),
-            "<Keyboard>/semicolon" or "<Keyboard>/#(;)" => GetSprite(MyInput.Keyboard.Semicolon),
-            "<okey>/Colon" => GetSprite(MyInput.Keyboard.Colon),
-            "<Keyboard>/comma" or "<Keyboard>/#(),)" => GetSprite(MyInput.Keyboard.Comma),
-            "<okey>/AngleBracketLeft" => GetSprite(MyInput.Keyboard.AngleBracketLeft),
-            "<Keyboard>/period" or "<Keyboard>/#(.)" => GetSprite(MyInput.Keyboard.Dot),
-            "<okey>/AngleBracketRight" => GetSprite(MyInput.Keyboard.AngleBracketRight),
-            "<Keyboard>/slash" or "<Keyboard>/#(/)" => GetSprite(MyInput.Keyboard.Slash),
-            "<Keyboard>/leftBracket" or "<Keyboard>/#([)" => GetSprite(MyInput.Keyboard.BracketLeft),
-            "<okey>/CurlyBracketLeft" => GetSprite(MyInput.Keyboard.CurlyBracketLeft),
-            "<Keyboard>/rightBracket" or "<Keyboard>/#(])" => GetSprite(MyInput.Keyboard.BracketRight),
-            "<okey>/CurlyBracketRight" => GetSprite(MyInput.Keyboard.CurlyBracketRight),
-            "<Keyboard>/a" or "<Keyboard>/#(A)" => GetSprite(MyInput.Keyboard.UpperA),
-            "<Keyboard>/b" or "<Keyboard>/#(B)" => GetSprite(MyInput.Keyboard.UpperB),
-            "<Keyboard>/c" or "<Keyboard>/#(C)" => GetSprite(MyInput.Keyboard.UpperC),
-            "<Keyboard>/d" or "<Keyboard>/#(D)" => GetSprite(MyInput.Keyboard.UpperD),
-            "<Keyboard>/e" or "<Keyboard>/#(E)" => GetSprite(MyInput.Keyboard.UpperE),
-            "<Keyboard>/f" or "<Keyboard>/#(F)" => GetSprite(MyInput.Keyboard.UpperF),
-            "<Keyboard>/g" or "<Keyboard>/#(G)" => GetSprite(MyInput.Keyboard.UpperG),
-            "<Keyboard>/h" or "<Keyboard>/#(H)" => GetSprite(MyInput.Keyboard.UpperH),
-            "<Keyboard>/i" or "<Keyboard>/#(I)" => GetSprite(MyInput.Keyboard.UpperI),
-            "<Keyboard>/j" or "<Keyboard>/#(J)" => GetSprite(MyInput.Keyboard.UpperJ),
-            "<Keyboard>/k" or "<Keyboard>/#(K)" => GetSprite(MyInput.Keyboard.UpperK),
-            "<Keyboard>/l" or "<Keyboard>/#(L)" => GetSprite(MyInput.Keyboard.UpperL),
-            "<Keyboard>/m" or "<Keyboard>/#(M)" => GetSprite(MyInput.Keyboard.UpperM),
-            "<Keyboard>/n" or "<Keyboard>/#(N)" => GetSprite(MyInput.Keyboard.UpperN),
-            "<Keyboard>/o" or "<Keyboard>/#(O)" => GetSprite(MyInput.Keyboard.UpperO),
-            "<Keyboard>/p" or "<Keyboard>/#(P)" => GetSprite(MyInput.Keyboard.UpperP),
-            "<Keyboard>/q" or "<Keyboard>/#(Q)" => GetSprite(MyInput.Keyboard.UpperQ),
-            "<Keyboard>/r" or "<Keyboard>/#(R)" => GetSprite(MyInput.Keyboard.UpperR),
-            "<Keyboard>/s" or "<Keyboard>/#(S)" => GetSprite(MyInput.Keyboard.UpperS),
-            "<Keyboard>/t" or "<Keyboard>/#(T)" => GetSprite(MyInput.Keyboard.UpperT),
-            "<Keyboard>/u" or "<Keyboard>/#(U)" => GetSprite(MyInput.Keyboard.UpperU),
-            "<Keyboard>/v" or "<Keyboard>/#(V)" => GetSprite(MyInput.Keyboard.UpperV),
-            "<Keyboard>/w" or "<Keyboard>/#(W)" => GetSprite(MyInput.Keyboard.UpperW),
-            "<Keyboard>/x" or "<Keyboard>/#(X)" => GetSprite(MyInput.Keyboard.UpperX),
-            "<Keyboard>/y" or "<Keyboard>/#(Y)" => GetSprite(MyInput.Keyboard.UpperY),
-            "<Keyboard>/z" or "<Keyboard>/#(Z)" => GetSprite(MyInput.Keyboard.UpperZ),
+            "<Keyboard>/quote" or
+            "<Keyboard>/#(')" => GetSprite(MyInput.Keyboard.SingleQuotation),
+            "<Keyboard>/semicolon" or
+            "<Keyboard>/#(;)" => GetSprite(MyInput.Keyboard.Semicolon),
+            "<Keyboard>/comma" or
+            "<Keyboard>/#(,)" => GetSprite(MyInput.Keyboard.Comma),
+            "<Keyboard>/period" or
+            "<Keyboard>/#(.)" => GetSprite(MyInput.Keyboard.Dot),
+            "<Keyboard>/slash" or
+            "<Keyboard>/#(/)" => GetSprite(MyInput.Keyboard.Slash),
+            "<Keyboard>/leftBracket" or
+            "<Keyboard>/#([)" => GetSprite(MyInput.Keyboard.BracketLeft),
+            "<Keyboard>/rightBracket" or
+            "<Keyboard>/#(])" => GetSprite(MyInput.Keyboard.BracketRight),
+            "<Keyboard>/a" or
+            "<Keyboard>/#(A)" => GetSprite(MyInput.Keyboard.UpperA),
+            "<Keyboard>/b" or
+            "<Keyboard>/#(B)" => GetSprite(MyInput.Keyboard.UpperB),
+            "<Keyboard>/c" or
+            "<Keyboard>/#(C)" => GetSprite(MyInput.Keyboard.UpperC),
+            "<Keyboard>/d" or
+            "<Keyboard>/#(D)" => GetSprite(MyInput.Keyboard.UpperD),
+            "<Keyboard>/e" or
+            "<Keyboard>/#(E)" => GetSprite(MyInput.Keyboard.UpperE),
+            "<Keyboard>/f" or
+            "<Keyboard>/#(F)" => GetSprite(MyInput.Keyboard.UpperF),
+            "<Keyboard>/g" or
+            "<Keyboard>/#(G)" => GetSprite(MyInput.Keyboard.UpperG),
+            "<Keyboard>/h" or
+            "<Keyboard>/#(H)" => GetSprite(MyInput.Keyboard.UpperH),
+            "<Keyboard>/i" or
+            "<Keyboard>/#(I)" => GetSprite(MyInput.Keyboard.UpperI),
+            "<Keyboard>/j" or
+            "<Keyboard>/#(J)" => GetSprite(MyInput.Keyboard.UpperJ),
+            "<Keyboard>/k" or
+            "<Keyboard>/#(K)" => GetSprite(MyInput.Keyboard.UpperK),
+            "<Keyboard>/l" or
+            "<Keyboard>/#(L)" => GetSprite(MyInput.Keyboard.UpperL),
+            "<Keyboard>/m" or
+            "<Keyboard>/#(M)" => GetSprite(MyInput.Keyboard.UpperM),
+            "<Keyboard>/n" or
+            "<Keyboard>/#(N)" => GetSprite(MyInput.Keyboard.UpperN),
+            "<Keyboard>/o" or
+            "<Keyboard>/#(O)" => GetSprite(MyInput.Keyboard.UpperO),
+            "<Keyboard>/p" or
+            "<Keyboard>/#(P)" => GetSprite(MyInput.Keyboard.UpperP),
+            "<Keyboard>/q" or
+            "<Keyboard>/#(Q)" => GetSprite(MyInput.Keyboard.UpperQ),
+            "<Keyboard>/r" or
+            "<Keyboard>/#(R)" => GetSprite(MyInput.Keyboard.UpperR),
+            "<Keyboard>/s" or
+            "<Keyboard>/#(S)" => GetSprite(MyInput.Keyboard.UpperS),
+            "<Keyboard>/t" or
+            "<Keyboard>/#(T)" => GetSprite(MyInput.Keyboard.UpperT),
+            "<Keyboard>/u" or
+            "<Keyboard>/#(U)" => GetSprite(MyInput.Keyboard.UpperU),
+            "<Keyboard>/v" or
+            "<Keyboard>/#(V)" => GetSprite(MyInput.Keyboard.UpperV),
+            "<Keyboard>/w" or
+            "<Keyboard>/#(W)" => GetSprite(MyInput.Keyboard.UpperW),
+            "<Keyboard>/x" or
+            "<Keyboard>/#(X)" => GetSprite(MyInput.Keyboard.UpperX),
+            "<Keyboard>/y" or
+            "<Keyboard>/#(Y)" => GetSprite(MyInput.Keyboard.UpperY),
+            "<Keyboard>/z" or
+            "<Keyboard>/#(Z)" => GetSprite(MyInput.Keyboard.UpperZ),
             "<Keyboard>/upArrow" => GetSprite(MyInput.Keyboard.ArrowUp),
             "<Keyboard>/downArrow" => GetSprite(MyInput.Keyboard.ArrowDown),
             "<Keyboard>/leftArrow" => GetSprite(MyInput.Keyboard.ArrowLeft),
             "<Keyboard>/rightArrow" => GetSprite(MyInput.Keyboard.ArrowRight),
-            "<okey>/a" => GetSprite(MyInput.Keyboard.LowerA),
-            "<okey>/b" => GetSprite(MyInput.Keyboard.LowerB),
-            "<okey>/c" => GetSprite(MyInput.Keyboard.LowerC),
-            "<okey>/d" => GetSprite(MyInput.Keyboard.LowerD),
-            "<okey>/e" => GetSprite(MyInput.Keyboard.LowerE),
-            "<okey>/f" => GetSprite(MyInput.Keyboard.LowerF),
-            "<okey>/g" => GetSprite(MyInput.Keyboard.LowerG),
-            "<okey>/h" => GetSprite(MyInput.Keyboard.LowerH),
-            "<okey>/i" => GetSprite(MyInput.Keyboard.LowerI),
-            "<okey>/j" => GetSprite(MyInput.Keyboard.LowerJ),
-            "<okey>/k" => GetSprite(MyInput.Keyboard.LowerK),
-            "<okey>/l" => GetSprite(MyInput.Keyboard.LowerL),
-            "<okey>/m" => GetSprite(MyInput.Keyboard.LowerM),
-            "<okey>/n" => GetSprite(MyInput.Keyboard.LowerN),
-            "<okey>/o" => GetSprite(MyInput.Keyboard.LowerO),
-            "<okey>/p" => GetSprite(MyInput.Keyboard.LowerP),
-            "<okey>/q" => GetSprite(MyInput.Keyboard.LowerQ),
-            "<okey>/r" => GetSprite(MyInput.Keyboard.LowerR),
-            "<okey>/s" => GetSprite(MyInput.Keyboard.LowerS),
-            "<okey>/t" => GetSprite(MyInput.Keyboard.LowerT),
-            "<okey>/u" => GetSprite(MyInput.Keyboard.LowerU),
-            "<okey>/v" => GetSprite(MyInput.Keyboard.LowerV),
-            "<okey>/w" => GetSprite(MyInput.Keyboard.LowerW),
-            "<okey>/x" => GetSprite(MyInput.Keyboard.LowerX),
-            "<okey>/y" => GetSprite(MyInput.Keyboard.LowerY),
-            "<okey>/z" => GetSprite(MyInput.Keyboard.LowerZ),
             "<Keyboard>/shift" => GetSprite(MyInput.Keyboard.Shift),
             "<Keyboard>/leftShift" => GetSprite(MyInput.Keyboard.ShiftLeft),
             "<Keyboard>/rightShift" => GetSprite(MyInput.Keyboard.ShiftRight),
@@ -144,7 +145,6 @@ public class MyKeyPool : MonoBehaviour
             "<Keyboard>/ctrl" => GetSprite(MyInput.Keyboard.Ctrl),
             "<Keyboard>/leftCtrl" => GetSprite(MyInput.Keyboard.CtrlLeft),
             "<Keyboard>/rightCtrl" => GetSprite(MyInput.Keyboard.CtrlRight),
-            "<okey>/meta" => GetSprite(MyInput.Keyboard.Windows),
             "<Keyboard>/leftMeta" => GetSprite(MyInput.Keyboard.WindowsLeft),
             "<Keyboard>/rightMeta" => GetSprite(MyInput.Keyboard.WindowsRight),
             "<Keyboard>/contextMenu" => GetSprite(MyInput.Keyboard.ContextMenu),
@@ -270,7 +270,7 @@ public class MyKeyPool : MonoBehaviour
             MyInput.Controller.Default.Right5 => GetSprite(MyInput.Controller.Xbox.Right5),
             MyInput.Controller.Default.Select => GetSprite(MyInput.Controller.Xbox.Select),
             MyInput.Controller.Default.Start => GetSprite(MyInput.Controller.Xbox.Start),
-            _ => throw new System.NotImplementedException(),
+            _ => _error,
         };
     }
 
@@ -315,7 +315,7 @@ public class MyKeyPool : MonoBehaviour
             MyInput.Controller.Playstation.Right5 => _null,
             MyInput.Controller.Playstation.Select => _gamepadPs.Select,
             MyInput.Controller.Playstation.Start => _gamepadPs.Start,
-            _ => throw new System.NotImplementedException(),
+            _ => _error,
         };
     }
 
@@ -360,7 +360,7 @@ public class MyKeyPool : MonoBehaviour
             MyInput.Controller.Xbox.Right5 => _null,
             MyInput.Controller.Xbox.Select => _gamepadXbox.Select,
             MyInput.Controller.Xbox.Start => _gamepadXbox.Start,
-            _ => throw new System.NotImplementedException(),
+            _ => _error,
         };
     }
 
@@ -528,7 +528,7 @@ public class MyKeyPool : MonoBehaviour
             MyInput.Keyboard.Windows => _keyboard.Windows,
             MyInput.Keyboard.WindowsLeft => _keyboard.WindowsLeft,
             MyInput.Keyboard.WindowsRight => _keyboard.WindowsRight,
-            _ => throw new System.NotImplementedException(),
+            _ => _error,
         };
     }
 
@@ -548,7 +548,7 @@ public class MyKeyPool : MonoBehaviour
             MyInput.Mouse.WheelDown => _mouse.WheelDown,
             MyInput.Mouse.WheelMove => _mouse.WheelMove,
             MyInput.Mouse.WheelUp => _mouse.WheelUp,
-            _ => throw new System.NotImplementedException(),
+            _ => _error,
         };
     }
 }

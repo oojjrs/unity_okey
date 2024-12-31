@@ -173,8 +173,14 @@ MonoBehaviour:
   Tilde: {fileID: 21300000, guid: 61a4520550f25344ebb40607d00470c9, type: 3}
   Delete: {fileID: 21300000, guid: de6827a5d38688b4b81dd97eb049480f, type: 3}
   Shift: {fileID: 21300000, guid: dd9f348ffb54b214f82b8b754eb341d3, type: 3}
+  ShiftLeft: {fileID: 21300000, guid: f21804221a7617a4ca745ca286e6f1e7, type: 3}
+  ShiftRight: {fileID: 21300000, guid: a7f5ac035fda9f34e878eef9c84ec941, type: 3}
   Ctrl: {fileID: 21300000, guid: ed28f21711c4b6c49a7f2ca5468f8245, type: 3}
+  CtrlLeft: {fileID: 21300000, guid: 20f2c027fa98086498f0bbc9639fafd4, type: 3}
+  CtrlRight: {fileID: 21300000, guid: 4b5a3dfef88c2a54187cfa2b924addf4, type: 3}
   Alt: {fileID: 21300000, guid: 698652561428c0441941d40b84175bfc, type: 3}
+  AltLeft: {fileID: 21300000, guid: fcd30ce6408077e48b095abfadcf1d83, type: 3}
+  AltRight: {fileID: 21300000, guid: 22e44978fa1ccc840bd6270dcca5f253, type: 3}
   ArrowDown: {fileID: 21300000, guid: e4cb8f5ee8577ca4da429db1476f8d41, type: 3}
   ArrowLeft: {fileID: 21300000, guid: b6dbd55569371c848b6257cf0893a26d, type: 3}
   ArrowRight: {fileID: 21300000, guid: 97be113ab9baf9c42a3b083fd3a65a44, type: 3}
@@ -186,23 +192,31 @@ MonoBehaviour:
   PageDown: {fileID: 21300000, guid: cb17eb2f9973f014d9f2539eb5eb22c5, type: 3}
   PageUp: {fileID: 21300000, guid: 4f942f713edf5cf4ebb0fdad5e261d9a, type: 3}
   Windows: {fileID: 21300000, guid: 3ca38ec77aded0e47b47bbd4218c49e8, type: 3}
+  WindowsLeft: {fileID: 21300000, guid: 8a136d861d5cb5447b9e51aee9e8ef1f, type: 3}
+  WindowsRight: {fileID: 21300000, guid: 375daf5e1d4e09c40a8258028421135d, type: 3}
   NumLock: {fileID: 21300000, guid: 962dbf832da972e4eaaed1b5bb94ddba, type: 3}
-  NumpadSlash: {fileID: 21300000, guid: e35fa4c4da91cd440a97a8c1b55857f1, type: 3}
-  NumpadAsterisk: {fileID: 21300000, guid: 0d84a42ff3bd2604a969e925b6fa3694, type: 3}
-  NumpadMinus: {fileID: 21300000, guid: 458f9291e0aad174ab7a2b07725cb81d, type: 3}
-  NumpadPlus: {fileID: 21300000, guid: fcd9ea631b901d04db2044c86f7b0d6c, type: 3}
-  NumpadEnter: {fileID: 21300000, guid: 8a00a2fd1f08ca041b010cdeb9208b6c, type: 3}
-  Numpad0: {fileID: 21300000, guid: 136e6155998f9e24aa6a81160bf2a995, type: 3}
-  Numpad1: {fileID: 21300000, guid: 24fceb572bdf3894a9c763119a2a5b33, type: 3}
-  Numpad2: {fileID: 21300000, guid: 5a89d6fa1b62153498edd417b7cefa29, type: 3}
-  Numpad3: {fileID: 21300000, guid: 7255431333b89ce41861283df4b2e2d4, type: 3}
-  Numpad4: {fileID: 21300000, guid: d888329bd5fb64043b5995e9839b224c, type: 3}
-  Numpad5: {fileID: 21300000, guid: 29ce0d19405a7e54b92ec26ec77b581c, type: 3}
-  Numpad6: {fileID: 21300000, guid: b2e4c97a836291a4e8118896b148bcd7, type: 3}
-  Numpad7: {fileID: 21300000, guid: b867e9ea241af324399df36bfc51bf0b, type: 3}
-  Numpad8: {fileID: 21300000, guid: c8d70e80eed451e4dbe365e733acc02b, type: 3}
-  Numpad9: {fileID: 21300000, guid: c394910cde3521244aacaa65a6812710, type: 3}
-  NumpadDot: {fileID: 21300000, guid: a9a88908ce22b3c4c8a5d8a4140fbf76, type: 3}
+  NumpadSlash: {fileID: 21300000, guid: a4748dd3b45cda949b569ee958627318, type: 3}
+  NumpadAsterisk: {fileID: 21300000, guid: 55111b7a0f4bca548b347b432f5bae71, type: 3}
+  NumpadMinus: {fileID: 21300000, guid: 88541dbadc45735439952bf495cd2f7f, type: 3}
+  NumpadPlus: {fileID: 21300000, guid: 56e3687717ef4c044b56f6e5d14e26df, type: 3}
+  NumpadEnter: {fileID: 21300000, guid: bdbee8982916bde4ca6ed4e782db65e6, type: 3}
+  Numpad0: {fileID: 21300000, guid: c31a464441f59cb4eae5606d4176cf2b, type: 3}
+  Numpad1: {fileID: 21300000, guid: d85b5e013101c2a448f5d489403c2e45, type: 3}
+  Numpad2: {fileID: 21300000, guid: c46ff8d8caf060147a7a1893e0925197, type: 3}
+  Numpad3: {fileID: 21300000, guid: 5f680b343d9dfa6488a081f1dbb2a76e, type: 3}
+  Numpad4: {fileID: 21300000, guid: 60e60d8c796e753448195a6980c53df8, type: 3}
+  Numpad5: {fileID: 21300000, guid: 48c0db866e4fb1a448a1a5732640daf2, type: 3}
+  Numpad6: {fileID: 21300000, guid: 919a54dd2bae30f4cbafca16603d31d7, type: 3}
+  Numpad7: {fileID: 21300000, guid: a2d9a4cfb22d62f41880eabf955c315a, type: 3}
+  Numpad8: {fileID: 21300000, guid: a9217bc07fc1a11448a454c4f89a964d, type: 3}
+  Numpad9: {fileID: 21300000, guid: 4830a4d9706313e47a5306c52b5ba07f, type: 3}
+  NumpadDot: {fileID: 21300000, guid: bbd261ffe0bdd5145b7bc4dc1733421d, type: 3}
   PrintScreen: {fileID: 21300000, guid: 6f9e2f29e9dbc9a4485ba87a82b49a6c, type: 3}
   ScrollLock: {fileID: 21300000, guid: 373078e14e6539c4db593dce43cccd5f, type: 3}
   Pause: {fileID: 21300000, guid: b592329858a2ff84fb199082ce02c246, type: 3}
+  ContextMenu: {fileID: 21300000, guid: 485f5d68a144ce44ebdf5b6311d23d03, type: 3}
+  Lang1: {fileID: 21300000, guid: e183094ea3a06044480851355b53c151, type: 3}
+  Lang2: {fileID: 21300000, guid: 6a5e621cd6510e04d9db7482d52e005b, type: 3}
+  Muhenkan: {fileID: 21300000, guid: 185be9d5fc41eef49813c877a685f159, type: 3}
+  Henkan: {fileID: 21300000, guid: 185be9d5fc41eef49813c877a685f159, type: 3}
+  Kana: {fileID: 21300000, guid: 185be9d5fc41eef49813c877a685f159, type: 3}

@@ -131,8 +131,14 @@ public class MyKeyPoolKeyboard : MonoBehaviour
     public Sprite Tilde;
     public Sprite Delete;
     public Sprite Shift;
+    public Sprite ShiftLeft;
+    public Sprite ShiftRight;
     public Sprite Ctrl;
+    public Sprite CtrlLeft;
+    public Sprite CtrlRight;
     public Sprite Alt;
+    public Sprite AltLeft;
+    public Sprite AltRight;
     public Sprite ArrowDown;
     public Sprite ArrowLeft;
     public Sprite ArrowRight;
@@ -144,6 +150,8 @@ public class MyKeyPoolKeyboard : MonoBehaviour
     public Sprite PageDown;
     public Sprite PageUp;
     public Sprite Windows;
+    public Sprite WindowsLeft;
+    public Sprite WindowsRight;
     public Sprite NumLock;
     public Sprite NumpadSlash;
     public Sprite NumpadAsterisk;
@@ -164,4 +172,12 @@ public class MyKeyPoolKeyboard : MonoBehaviour
     public Sprite PrintScreen;
     public Sprite ScrollLock;
     public Sprite Pause;
+    public Sprite ContextMenu;
+    // 한국 키보드 전용
+    public Sprite Lang1;
+    public Sprite Lang2;
+    // 일본 키보드 전용
+    public Sprite Muhenkan;
+    public Sprite Henkan;
+    public Sprite Kana;
 }

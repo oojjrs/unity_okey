@@ -44,6 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49d1470de6b6be147bc28a1ef15c0a9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gamepad: {fileID: -6889598461151510774, guid: caf787094c4a02d4f8ff65972b33376b, type: 3}
+  _gamepadPs: {fileID: -6889598461151510774, guid: c7dfbef612549ae4f83e7b6a4dfe0aec, type: 3}
+  _gamepadXbox: {fileID: -6889598461151510774, guid: caf787094c4a02d4f8ff65972b33376b, type: 3}
   _keyboard: {fileID: -3276371147117768368, guid: 0ff9eb52bf6cfad498f6280d8657a75e, type: 3}
   _mouse: {fileID: 6597148448151499886, guid: 0e2f4dfadf5dbfc41bfcba889700505f, type: 3}

@@ -3,7 +3,9 @@
 public class MyKeyPool : MonoBehaviour
 {
     [SerializeField]
-    private MyKeyPoolGamepad _gamepad;
+    private MyKeyPoolGamepad _gamepadPs;
+    [SerializeField]
+    private MyKeyPoolGamepad _gamepadXbox;
     [SerializeField]
     private MyKeyPoolKeyboard _keyboard;
     [SerializeField]
@@ -13,6 +15,47 @@ public class MyKeyPool : MonoBehaviour
     {
         return key switch
         {
+            "<Gamepad>/buttonEast" => _gamepadXbox.ButtonEast,
+            "<Gamepad>/buttonNorth" => _gamepadXbox.ButtonNorth,
+            "<Gamepad>/buttonSouth" => _gamepadXbox.ButtonSouth,
+            "<Gamepad>/buttonWest" => _gamepadXbox.ButtonWest,
+            "<opad>/DPad" => _gamepadXbox.DPad,
+            "<Gamepad>/dpad/down" => _gamepadXbox.DPadDown,
+            "<Gamepad>/dpad/left" => _gamepadXbox.DPadLeft,
+            "<Gamepad>/dpad/right" => _gamepadXbox.DPadRight,
+            "<Gamepad>/dpad/up" => _gamepadXbox.DPadUp,
+            "<Gamepad>/leftShoulder" => _gamepadXbox.LeftBumper,
+            "<opad>/LeftStick" => _gamepadXbox.LeftStick,
+            "<opad>/LeftStickMove" => _gamepadXbox.LeftStickMove,
+            "<Gamepad>/leftStick/down" => _gamepadXbox.LeftStickDown,
+            "<Gamepad>/leftStick/left" => _gamepadXbox.LeftStickLeft,
+            "<Gamepad>/leftStick/right" => _gamepadXbox.LeftStickRight,
+            "<Gamepad>/leftStick/up" => _gamepadXbox.LeftStickUp,
+            "<Gamepad>/leftStickPress" => _gamepadXbox.LeftStickPress,
+            "<Gamepad>/leftTrigger" => _gamepadXbox.LeftTrigger,
+            "<Gamepad>/rightShoulder" => _gamepadXbox.RightBumper,
+            "<opad>/RightStick" => _gamepadXbox.RightStick,
+            "<opad>/RightStickMove" => _gamepadXbox.RightStickMove,
+            "<Gamepad>/rightStick/down" => _gamepadXbox.RightStickDown,
+            "<Gamepad>/rightStick/left" => _gamepadXbox.RightStickLeft,
+            "<Gamepad>/rightStick/right" => _gamepadXbox.RightStickRight,
+            "<Gamepad>/rightStick/up" => _gamepadXbox.RightStickUp,
+            "<Gamepad>/rightStickPress" => _gamepadXbox.RightStickPress,
+            "<Gamepad>/rightTrigger" => _gamepadXbox.RightTrigger,
+            "<Gamepad>/select" => _gamepadXbox.Select,
+            "<Gamepad>/start" => _gamepadXbox.Start,
+            "<omouse>/Body" => _mouse.Body,
+            "<Mouse>/leftButton" => _mouse.LeftButton,
+            "<Mouse>/middleButton" => _mouse.MiddleButton,
+            "<Mouse>/rightButton" => _mouse.RightButton,
+            "<omouse>/Direction" => _mouse.Direction,
+            "<omouse>/DirectionDown" => _mouse.DirectionDown,
+            "<omouse>/DirectionLeft" => _mouse.DirectionLeft,
+            "<omouse>/DirectionRight" => _mouse.DirectionRight,
+            "<omouse>/DirectionUp" => _mouse.DirectionUp,
+            "<omouse>/WheelDown" => _mouse.WheelDown,
+            "<omouse>/WheelMove" => _mouse.WheelMove,
+            "<omouse>/WheelUp" => _mouse.WheelUp,
             "<Keyboard>/escape" => _keyboard.Escape,
             "<Keyboard>/f1" => _keyboard.F1,
             "<Keyboard>/f2" => _keyboard.F2,

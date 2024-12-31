@@ -44,6 +44,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc01dc92308cc03479ff7ffbba1370f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Body: {fileID: 21300000, guid: 12a708ce82629584f99b04791628f5df, type: 3}
+  Direction: {fileID: 21300000, guid: a0592428451ec6343b8d27b8e0784296, type: 3}
   DirectionDown: {fileID: 21300000, guid: 335e25fa825eff14ba4f656cfd21d65e, type: 3}
   DirectionLeft: {fileID: 21300000, guid: ec72b098f3996e44e96b91444f47d950, type: 3}
   DirectionRight: {fileID: 21300000, guid: 02db4eff054ad484582c874f8b87d65f, type: 3}
@@ -51,6 +53,7 @@ MonoBehaviour:
   LeftButton: {fileID: 21300000, guid: f8b80ce96d6e00d44bcd40f441e0ddf7, type: 3}
   MiddleButton: {fileID: 21300000, guid: 6301d57330c9bc3468e00cf748fddbc1, type: 3}
   RightButton: {fileID: 21300000, guid: 26b870e939ba5cc4190d45b4108e8fc6, type: 3}
+  WheelButton: {fileID: 21300000, guid: 6301d57330c9bc3468e00cf748fddbc1, type: 3}
   WheelDown: {fileID: 21300000, guid: b040440c0bb81e84684c656dcf46c277, type: 3}
   WheelMove: {fileID: 21300000, guid: 6c953603217d21c47b5c09663d13fa57, type: 3}
   WheelUp: {fileID: 21300000, guid: 0852b6cb120996242b16aa03f582913e, type: 3}

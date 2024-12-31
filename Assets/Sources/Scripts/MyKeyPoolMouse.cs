@@ -11,7 +11,6 @@ public class MyKeyPoolMouse : MonoBehaviour
     public Sprite LeftButton;
     public Sprite MiddleButton;
     public Sprite RightButton;
-    public Sprite WheelButton;
     public Sprite WheelDown;
     public Sprite WheelMove;
     public Sprite WheelUp;

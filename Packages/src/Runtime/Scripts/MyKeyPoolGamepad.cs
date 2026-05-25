@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 
-public class MyKeyPoolGamepad : MonoBehaviour
+[CreateAssetMenu(fileName = nameof(MyKeyPoolGamepad), menuName = "OKey/My Key Pool Gamepad")]
+public class MyKeyPoolGamepad : ScriptableObject
 {
     public Sprite ButtonEast;
     public Sprite ButtonNorth;

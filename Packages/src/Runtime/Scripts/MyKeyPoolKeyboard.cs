@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 
-public class MyKeyPoolKeyboard : MonoBehaviour
+[CreateAssetMenu(fileName = nameof(MyKeyPoolKeyboard), menuName = "OKey/My Key Pool Keyboard")]
+public class MyKeyPoolKeyboard : ScriptableObject
 {
     public Sprite Nonprintable_1;
     public Sprite Nonprintable_2;

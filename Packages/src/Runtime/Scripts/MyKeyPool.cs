@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 
-public class MyKeyPool : MonoBehaviour
+[CreateAssetMenu(fileName = nameof(MyKeyPool), menuName = "OKey/My Key Pool")]
+public class MyKeyPool : ScriptableObject
 {
     [SerializeField]
     private Sprite _error;

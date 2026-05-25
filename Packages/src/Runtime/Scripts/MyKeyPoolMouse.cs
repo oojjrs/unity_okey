@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 
-public class MyKeyPoolMouse : MonoBehaviour
+[CreateAssetMenu(fileName = nameof(MyKeyPoolMouse), menuName = "OKey/My Key Pool Mouse")]
+public class MyKeyPoolMouse : ScriptableObject
 {
     public Sprite Body;
     public Sprite Direction;

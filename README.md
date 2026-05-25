@@ -50,11 +50,12 @@ Sprite fromPath = keyPool.GetSprite("/Keyboard/escape");
 
 문자열 키는 Unity Input System에서 사용하는 키 경로를 기준으로 처리합니다. 알 수 없는 키는 오류 스프라이트를 반환하고, 플랫폼별로 직접 대응하기 어려운 일부 입력은 null 표시용 스프라이트를 반환합니다.
 
+패키지에 포함된 스프라이트와 `MyKeyPool` 에셋은 기본 이미지 세트입니다. 프로젝트에 맞는 버튼 이미지가 필요하면 `MyKeyPool`, `MyKeyPoolKeyboard`, `MyKeyPoolMouse`, `MyKeyPoolGamepad` ScriptableObject를 따로 만들어 별도 애셋팩처럼 구성해 사용할 수 있습니다.
+
 ## 1.2.0 변경 사항
 
 - 패키지 내용을 `Packages/src/Runtime` 아래로 정리해 git URL의 `path=/Packages/src` 방식으로 바로 설치할 수 있게 했습니다.
-- `MyKeyPool`과 키보드, 마우스, 게임패드 풀을 프리팹에서 ScriptableObject 에셋으로 전환했습니다.
-- 샘플 씬의 키 경로를 현재 `MyKeyPool.GetSprite(string key)` 매핑에 맞게 갱신했습니다.
+- `MyKeyPool`과 키보드, 마우스, 게임패드 풀을 프리팹에서 ScriptableObject 에셋으로 전환해 기본 이미지 세트와 사용자 정의 이미지 세트를 분리해 구성할 수 있게 했습니다.
 
 ## 개발 메모
 

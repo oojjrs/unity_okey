@@ -169,7 +169,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/f9
+  Key: /Keyboard/f9
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &2512724
 MonoBehaviour:
@@ -259,7 +259,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Gamepad>/leftStick/down
+  Key: /Gamepad/leftStick/down
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &7382767
 MonoBehaviour:
@@ -349,7 +349,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Gamepad>/dpad/left
+  Key: /Gamepad/dpad/left
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &20481715
 MonoBehaviour:
@@ -439,7 +439,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/delete
+  Key: /Keyboard/delete
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &28581950
 MonoBehaviour:
@@ -529,7 +529,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/f6
+  Key: /Keyboard/f6
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &37032938
 MonoBehaviour:
@@ -654,7 +654,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/pageUp
+  Key: /Keyboard/pageUp
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &39799187
 MonoBehaviour:
@@ -744,7 +744,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/k
+  Key: /Keyboard/k
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &72139043
 MonoBehaviour:
@@ -834,7 +834,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/7
+  Key: /Keyboard/7
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &75871618
 MonoBehaviour:
@@ -959,7 +959,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/contextMenu
+  Key: /Keyboard/contextMenu
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &86766327
 MonoBehaviour:
@@ -1175,7 +1175,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/home
+  Key: /Keyboard/home
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &112499954
 MonoBehaviour:
@@ -1265,7 +1265,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/d
+  Key: /Keyboard/d
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &134624165
 MonoBehaviour:
@@ -1355,7 +1355,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Gamepad>/buttonWest
+  Key: /Gamepad/buttonWest
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &146753794
 MonoBehaviour:
@@ -1445,7 +1445,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/i
+  Key: /Keyboard/i
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &149487500
 MonoBehaviour:
@@ -1535,7 +1535,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/leftAlt
+  Key: /Keyboard/leftAlt
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &151766689
 MonoBehaviour:
@@ -1625,7 +1625,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/f11
+  Key: /Keyboard/f11
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &158296991
 MonoBehaviour:
@@ -1715,7 +1715,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/z
+  Key: /Keyboard/z
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &189370237
 MonoBehaviour:
@@ -1867,7 +1867,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/leftArrow
+  Key: /Keyboard/leftArrow
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &215418757
 MonoBehaviour:
@@ -1957,7 +1957,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/tab
+  Key: /Keyboard/tab
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &219101045
 MonoBehaviour:
@@ -2082,7 +2082,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <opad>/DPad
+  Key: /opad/DPad
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &280749588
 MonoBehaviour:
@@ -2207,7 +2207,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Mouse>/middleButton
+  Key: /Mouse/middleButton
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &289321121
 MonoBehaviour:
@@ -2297,7 +2297,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <omouse>/DirectionLeft
+  Key: /omouse/DirectionLeft
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &304128608
 MonoBehaviour:
@@ -2422,7 +2422,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/backquote
+  Key: /Keyboard/backquote
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &335276598
 MonoBehaviour:
@@ -2512,7 +2512,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/slash
+  Key: /Keyboard/slash
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &335695855
 MonoBehaviour:
@@ -2602,7 +2602,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/f2
+  Key: /Keyboard/f2
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &337149169
 MonoBehaviour:
@@ -2692,7 +2692,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/leftBracket
+  Key: /Keyboard/leftBracket
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &340244607
 MonoBehaviour:
@@ -2867,7 +2867,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/numpadPeriod
+  Key: /Keyboard/numpadPeriod
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &354780626
 MonoBehaviour:
@@ -2957,7 +2957,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Mouse>/leftButton
+  Key: /Mouse/leftButton
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &361105590
 MonoBehaviour:
@@ -3047,7 +3047,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/numpad4
+  Key: /Keyboard/numpad4
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &370941020
 MonoBehaviour:
@@ -3137,7 +3137,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/semicolon
+  Key: /Keyboard/semicolon
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &372428775
 MonoBehaviour:
@@ -3227,7 +3227,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/lang1
+  Key: /Keyboard/lang1
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &372946069
 MonoBehaviour:
@@ -3317,7 +3317,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/f4
+  Key: /Keyboard/f4
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &389603442
 MonoBehaviour:
@@ -3407,7 +3407,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/8
+  Key: /Keyboard/8
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &415215424
 MonoBehaviour:
@@ -3497,7 +3497,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Gamepad>/rightStick/up
+  Key: /Gamepad/rightStick/up
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &431836467
 MonoBehaviour:
@@ -3587,7 +3587,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Gamepad>/rightStick/down
+  Key: /Gamepad/rightStick/down
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &431859533
 MonoBehaviour:
@@ -3677,7 +3677,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Gamepad>/buttonNorth
+  Key: /Gamepad/buttonNorth
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &440284688
 MonoBehaviour:
@@ -3802,7 +3802,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/numpadMinus
+  Key: /Keyboard/numpadMinus
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &459677182
 MonoBehaviour:
@@ -3892,7 +3892,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/p
+  Key: /Keyboard/p
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &471734884
 MonoBehaviour:
@@ -3982,7 +3982,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/4
+  Key: /Keyboard/4
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &477052041
 MonoBehaviour:
@@ -4142,7 +4142,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/f12
+  Key: /Keyboard/f12
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &496339973
 MonoBehaviour:
@@ -4232,7 +4232,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Gamepad>/rightShoulder
+  Key: /Gamepad/rightShoulder
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &507241386
 MonoBehaviour:
@@ -4322,7 +4322,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/pause
+  Key: /Keyboard/pause
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &523395325
 MonoBehaviour:
@@ -4447,7 +4447,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/enter
+  Key: /Keyboard/enter
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &557781590
 MonoBehaviour:
@@ -4537,7 +4537,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/u
+  Key: /Keyboard/u
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &558178995
 MonoBehaviour:
@@ -4627,7 +4627,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/f5
+  Key: /Keyboard/f5
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &570515727
 MonoBehaviour:
@@ -4717,7 +4717,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/rightMeta
+  Key: /Keyboard/rightMeta
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &570926868
 MonoBehaviour:
@@ -4807,7 +4807,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/n
+  Key: /Keyboard/n
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &578381114
 MonoBehaviour:
@@ -4897,7 +4897,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/comma
+  Key: /Keyboard/comma
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &609316580
 MonoBehaviour:
@@ -4987,7 +4987,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/m
+  Key: /Keyboard/m
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &612508519
 MonoBehaviour:
@@ -5077,7 +5077,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/h
+  Key: /Keyboard/h
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &614709394
 MonoBehaviour:
@@ -5167,7 +5167,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Gamepad>/rightStickPress
+  Key: /Gamepad/rightStickPress
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &616541359
 MonoBehaviour:
@@ -5257,7 +5257,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/j
+  Key: /Keyboard/j
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &619585052
 MonoBehaviour:
@@ -5347,7 +5347,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/e
+  Key: /Keyboard/e
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &639577800
 MonoBehaviour:
@@ -5472,7 +5472,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/capsLock
+  Key: /Keyboard/capsLock
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &664153167
 MonoBehaviour:
@@ -5562,7 +5562,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/x
+  Key: /Keyboard/x
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &689132556
 MonoBehaviour:
@@ -5687,7 +5687,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <omouse>/WheelMove
+  Key: /omouse/WheelMove
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &708846204
 MonoBehaviour:
@@ -5777,7 +5777,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <opad>/RightStick
+  Key: /opad/RightStick
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &729370663
 MonoBehaviour:
@@ -5867,7 +5867,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/o
+  Key: /Keyboard/o
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &729873034
 MonoBehaviour:
@@ -5957,7 +5957,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/numpad5
+  Key: /Keyboard/numpad5
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &734127885
 MonoBehaviour:
@@ -6047,7 +6047,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/r
+  Key: /Keyboard/r
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &776456482
 MonoBehaviour:
@@ -6137,7 +6137,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/numLock
+  Key: /Keyboard/numLock
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &779866655
 MonoBehaviour:
@@ -6262,7 +6262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/f7
+  Key: /Keyboard/f7
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &815486589
 MonoBehaviour:
@@ -6352,7 +6352,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/s
+  Key: /Keyboard/s
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &827885040
 MonoBehaviour:
@@ -6512,7 +6512,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/rightAlt
+  Key: /Keyboard/rightAlt
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &846006298
 MonoBehaviour:
@@ -6676,7 +6676,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <omouse>/Body
+  Key: /omouse/Body
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &863386099
 MonoBehaviour:
@@ -6766,7 +6766,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/rightBracket
+  Key: /Keyboard/rightBracket
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &877847352
 MonoBehaviour:
@@ -6891,7 +6891,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Gamepad>/leftStick/up
+  Key: /Gamepad/leftStick/up
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &882398288
 MonoBehaviour:
@@ -7063,7 +7063,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/3
+  Key: /Keyboard/3
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &896027708
 MonoBehaviour:
@@ -7153,7 +7153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <omouse>/DirectionRight
+  Key: /omouse/DirectionRight
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &962071784
 MonoBehaviour:
@@ -7243,7 +7243,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/f1
+  Key: /Keyboard/f1
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &994356323
 MonoBehaviour:
@@ -7333,7 +7333,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/numpad0
+  Key: /Keyboard/numpad0
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &994694568
 MonoBehaviour:
@@ -7458,7 +7458,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/f3
+  Key: /Keyboard/f3
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1027109703
 MonoBehaviour:
@@ -7548,7 +7548,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/rightShift
+  Key: /Keyboard/rightShift
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1036493448
 MonoBehaviour:
@@ -7638,7 +7638,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/g
+  Key: /Keyboard/g
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1055613915
 MonoBehaviour:
@@ -7798,7 +7798,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/numpad9
+  Key: /Keyboard/numpad9
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1072048376
 MonoBehaviour:
@@ -7953,7 +7953,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Gamepad>/rightStick/left
+  Key: /Gamepad/rightStick/left
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1077848368
 MonoBehaviour:
@@ -8043,7 +8043,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/c
+  Key: /Keyboard/c
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1084932601
 MonoBehaviour:
@@ -8133,7 +8133,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/6
+  Key: /Keyboard/6
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1097056509
 MonoBehaviour:
@@ -8258,7 +8258,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/numpadEnter
+  Key: /Keyboard/numpadEnter
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1129333169
 MonoBehaviour:
@@ -8348,7 +8348,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/rightArrow
+  Key: /Keyboard/rightArrow
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1130846014
 MonoBehaviour:
@@ -8438,7 +8438,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/f8
+  Key: /Keyboard/f8
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1134788835
 MonoBehaviour:
@@ -8528,7 +8528,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Gamepad>/select
+  Key: /Gamepad/select
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1141171650
 MonoBehaviour:
@@ -8687,7 +8687,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <omouse>/DirectionDown
+  Key: /omouse/DirectionDown
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1167377520
 MonoBehaviour:
@@ -8777,7 +8777,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/numpad8
+  Key: /Keyboard/numpad8
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1183554555
 MonoBehaviour:
@@ -8867,7 +8867,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Gamepad>/dpad/down
+  Key: /Gamepad/dpad/down
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1191314321
 MonoBehaviour:
@@ -8957,7 +8957,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/backspace
+  Key: /Keyboard/backspace
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1191961468
 MonoBehaviour:
@@ -9047,7 +9047,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/numpad3
+  Key: /Keyboard/numpad3
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1222798555
 MonoBehaviour:
@@ -9137,7 +9137,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <omouse>/DirectionUp
+  Key: /omouse/DirectionUp
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1235000247
 MonoBehaviour:
@@ -9227,7 +9227,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/leftMeta
+  Key: /Keyboard/leftMeta
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1247177996
 MonoBehaviour:
@@ -9317,7 +9317,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/end
+  Key: /Keyboard/end
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1267808061
 MonoBehaviour:
@@ -9407,7 +9407,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/space
+  Key: /Keyboard/space
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1281120502
 MonoBehaviour:
@@ -9497,7 +9497,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/w
+  Key: /Keyboard/w
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1281241167
 MonoBehaviour:
@@ -9587,7 +9587,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/numpadMultiply
+  Key: /Keyboard/numpadMultiply
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1289321240
 MonoBehaviour:
@@ -9763,7 +9763,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/scrollLock
+  Key: /Keyboard/scrollLock
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1295723193
 MonoBehaviour:
@@ -9853,7 +9853,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/y
+  Key: /Keyboard/y
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1298463214
 MonoBehaviour:
@@ -9943,7 +9943,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Gamepad>/buttonSouth
+  Key: /Gamepad/buttonSouth
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1299661409
 MonoBehaviour:
@@ -10033,7 +10033,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/q
+  Key: /Keyboard/q
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1324413862
 MonoBehaviour:
@@ -10209,7 +10209,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/0
+  Key: /Keyboard/0
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1330728518
 MonoBehaviour:
@@ -10299,7 +10299,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Gamepad>/dpad/right
+  Key: /Gamepad/dpad/right
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1339746524
 MonoBehaviour:
@@ -10457,7 +10457,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/leftShift
+  Key: /Keyboard/leftShift
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1346434322
 MonoBehaviour:
@@ -10582,7 +10582,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/period
+  Key: /Keyboard/period
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1350893953
 MonoBehaviour:
@@ -10672,7 +10672,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/numpad6
+  Key: /Keyboard/numpad6
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1357725916
 MonoBehaviour:
@@ -10762,7 +10762,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/numpad7
+  Key: /Keyboard/numpad7
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1365471637
 MonoBehaviour:
@@ -10852,7 +10852,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/pageDown
+  Key: /Keyboard/pageDown
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1373577893
 MonoBehaviour:
@@ -10942,7 +10942,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/leftCtrl
+  Key: /Keyboard/leftCtrl
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1406706927
 MonoBehaviour:
@@ -11032,7 +11032,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/lang2
+  Key: /Keyboard/lang2
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1409044809
 MonoBehaviour:
@@ -11122,7 +11122,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/a
+  Key: /Keyboard/a
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1422443968
 MonoBehaviour:
@@ -11212,7 +11212,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Gamepad>/leftStickPress
+  Key: /Gamepad/leftStickPress
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1434568364
 MonoBehaviour:
@@ -11302,7 +11302,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Gamepad>/buttonEast
+  Key: /Gamepad/buttonEast
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1442496568
 MonoBehaviour:
@@ -11494,7 +11494,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/minus
+  Key: /Keyboard/minus
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1465483261
 MonoBehaviour:
@@ -11584,7 +11584,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Gamepad>/start
+  Key: /Gamepad/start
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1470972484
 MonoBehaviour:
@@ -11674,7 +11674,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/upArrow
+  Key: /Keyboard/upArrow
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1486765658
 MonoBehaviour:
@@ -11886,7 +11886,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Gamepad>/leftShoulder
+  Key: /Gamepad/leftShoulder
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1504967139
 MonoBehaviour:
@@ -11976,7 +11976,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/numpadDivide
+  Key: /Keyboard/numpadDivide
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1513867921
 MonoBehaviour:
@@ -12066,7 +12066,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/rightCtrl
+  Key: /Keyboard/rightCtrl
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1518326164
 MonoBehaviour:
@@ -12156,7 +12156,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/b
+  Key: /Keyboard/b
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1519329018
 MonoBehaviour:
@@ -12246,7 +12246,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Gamepad>/leftStick/left
+  Key: /Gamepad/leftStick/left
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1528793003
 MonoBehaviour:
@@ -12336,7 +12336,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <omouse>/Direction
+  Key: /omouse/Direction
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1529866508
 MonoBehaviour:
@@ -12461,7 +12461,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/f
+  Key: /Keyboard/f
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1548542183
 MonoBehaviour:
@@ -12551,7 +12551,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Gamepad>/dpad/up
+  Key: /Gamepad/dpad/up
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1550935039
 MonoBehaviour:
@@ -12676,7 +12676,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/l
+  Key: /Keyboard/l
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1572404561
 MonoBehaviour:
@@ -12766,7 +12766,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/numpad1
+  Key: /Keyboard/numpad1
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1583556652
 MonoBehaviour:
@@ -12891,7 +12891,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/numpadPlus
+  Key: /Keyboard/numpadPlus
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1604990700
 MonoBehaviour:
@@ -13016,7 +13016,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/t
+  Key: /Keyboard/t
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1629255173
 MonoBehaviour:
@@ -13141,7 +13141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/backslash
+  Key: /Keyboard/backslash
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1702517910
 MonoBehaviour:
@@ -13266,7 +13266,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <omouse>/WheelUp
+  Key: /omouse/WheelUp
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1734535883
 MonoBehaviour:
@@ -13356,7 +13356,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Mouse>/rightButton
+  Key: /Mouse/rightButton
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1752737363
 MonoBehaviour:
@@ -13446,7 +13446,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/quote
+  Key: /Keyboard/quote
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1764304256
 MonoBehaviour:
@@ -13536,7 +13536,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/equals
+  Key: /Keyboard/equals
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1769028297
 MonoBehaviour:
@@ -13718,7 +13718,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <omouse>/WheelDown
+  Key: /omouse/WheelDown
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1780181544
 MonoBehaviour:
@@ -13808,7 +13808,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <opad>/RightStickMove
+  Key: /opad/RightStickMove
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1788521859
 MonoBehaviour:
@@ -13898,7 +13898,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Gamepad>/leftTrigger
+  Key: /Gamepad/leftTrigger
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1791529184
 MonoBehaviour:
@@ -13988,7 +13988,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/2
+  Key: /Keyboard/2
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1792224897
 MonoBehaviour:
@@ -14113,7 +14113,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/numpad2
+  Key: /Keyboard/numpad2
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1843239385
 MonoBehaviour:
@@ -14238,7 +14238,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/f10
+  Key: /Keyboard/f10
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1897942398
 MonoBehaviour:
@@ -14366,7 +14366,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/escape
+  Key: /Keyboard/escape
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!1 &1946058209
 GameObject:
@@ -14453,7 +14453,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Gamepad>/leftStick/right
+  Key: /Gamepad/leftStick/right
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1971302309
 MonoBehaviour:
@@ -14543,7 +14543,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/v
+  Key: /Keyboard/v
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1971737892
 MonoBehaviour:
@@ -14633,7 +14633,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/insert
+  Key: /Keyboard/insert
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1982813466
 MonoBehaviour:
@@ -14723,7 +14723,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/printScreen
+  Key: /Keyboard/printScreen
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1982972125
 MonoBehaviour:
@@ -14848,7 +14848,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/1
+  Key: /Keyboard/1
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1989505902
 MonoBehaviour:
@@ -14938,7 +14938,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <opad>/LeftStickMove
+  Key: /opad/LeftStickMove
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &1992073366
 MonoBehaviour:
@@ -15063,7 +15063,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/9
+  Key: /Keyboard/9
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &2021137921
 MonoBehaviour:
@@ -15153,7 +15153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/downArrow
+  Key: /Keyboard/downArrow
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &2043019749
 MonoBehaviour:
@@ -15243,7 +15243,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Gamepad>/rightTrigger
+  Key: /Gamepad/rightTrigger
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &2043180924
 MonoBehaviour:
@@ -15333,7 +15333,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Keyboard>/5
+  Key: /Keyboard/5
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &2043454152
 MonoBehaviour:
@@ -15423,7 +15423,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <Gamepad>/rightStick/right
+  Key: /Gamepad/rightStick/right
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &2054650536
 MonoBehaviour:
@@ -15670,7 +15670,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b56f5370661f5445956ca68c28918a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Key: <opad>/LeftStick
+  Key: /opad/LeftStick
   Pool: {fileID: 11400000, guid: 5112ad1dce73ffc4bbacd47638d66257, type: 2}
 --- !u!114 &2125857628
 MonoBehaviour:

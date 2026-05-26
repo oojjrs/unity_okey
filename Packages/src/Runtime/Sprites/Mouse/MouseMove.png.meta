@@ -125,10 +125,10 @@ TextureImporter:
       name: MouseMove_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 48
-        width: 34
-        height: 36
+        x: 0
+        y: 0
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,10 +147,10 @@ TextureImporter:
       name: MouseMove_1
       rect:
         serializedVersion: 2
-        x: 17
-        y: 73
-        width: 94
-        height: 55
+        x: 0
+        y: 0
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,10 +169,10 @@ TextureImporter:
       name: MouseMove_2
       rect:
         serializedVersion: 2
-        x: 79
-        y: 48
-        width: 34
-        height: 36
+        x: 0
+        y: 0
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,10 +191,10 @@ TextureImporter:
       name: MouseMove_3
       rect:
         serializedVersion: 2
-        x: 15
+        x: 0
         y: 0
-        width: 98
-        height: 61
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

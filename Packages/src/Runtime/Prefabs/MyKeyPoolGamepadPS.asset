@@ -28,8 +28,8 @@ MonoBehaviour:
   LeftStickLeft: {fileID: 21300000, guid: 1d783fef7c1e86943be9ee05db2938d4, type: 3}
   LeftStickRight: {fileID: 21300000, guid: d7230ea416976174098ec762a9e17c2f, type: 3}
   LeftStickUp: {fileID: 21300000, guid: 2ce8488a0b1c0384f979de552a8710b1, type: 3}
-  LeftBumper: {fileID: 21300000, guid: 968c4ca5c1fdcc94a95d1aad126481aa, type: 3}
-  LeftTrigger: {fileID: 21300000, guid: f3d515708ecf33e4d827e1ea644f3928, type: 3}
+  LeftBumper: {fileID: 21300000, guid: 6c48ffe2c858475e96493401be76dbbe, type: 3}
+  LeftTrigger: {fileID: 21300000, guid: c5fa54484c6943a6bb41df7b6a922bc6, type: 3}
   LeftPad: {fileID: 21300000, guid: 185be9d5fc41eef49813c877a685f159, type: 3}
   Left3: {fileID: 21300000, guid: 185be9d5fc41eef49813c877a685f159, type: 3}
   Left4: {fileID: 21300000, guid: 185be9d5fc41eef49813c877a685f159, type: 3}
@@ -41,8 +41,8 @@ MonoBehaviour:
   RightStickLeft: {fileID: 21300000, guid: 5ab54d447d4375a4b9e0d1b985300ae0, type: 3}
   RightStickRight: {fileID: 21300000, guid: e08ec1a0352c4b74d9148ce6cc08b45b, type: 3}
   RightStickUp: {fileID: 21300000, guid: 3dc7f836ab5774346925b162d219b95a, type: 3}
-  RightBumper: {fileID: 21300000, guid: 842b28d6587656f4c8e710c532f5b496, type: 3}
-  RightTrigger: {fileID: 21300000, guid: a9f6ddd944bed8747a49732cfdec0701, type: 3}
+  RightBumper: {fileID: 21300000, guid: 9697737735e1475cb37154b1d3c2c138, type: 3}
+  RightTrigger: {fileID: 21300000, guid: fc0e106108af401c83418ba78aaa8062, type: 3}
   RightPad: {fileID: 21300000, guid: 185be9d5fc41eef49813c877a685f159, type: 3}
   Right3: {fileID: 21300000, guid: 185be9d5fc41eef49813c877a685f159, type: 3}
   Right4: {fileID: 21300000, guid: 185be9d5fc41eef49813c877a685f159, type: 3}

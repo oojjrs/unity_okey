@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f3d515708ecf33e4d827e1ea644f3928
+guid: 6c48ffe2c858475e96493401be76dbbe
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1141160797057112616
-    second: Common_LeftTrigger_0
+      213: -4919047335518687150
+    second: PS_LeftBumper_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Common_LeftTrigger_0
+      name: PS_LeftBumper_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 29
-        width: 128
-        height: 70
+        y: 0
+        width: 256
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 82ad034e2b736df00800000000000000
-      internalID: 1141160797057112616
+      spriteID: 5b262b6d54bc7a4d0800000000000000
+      internalID: -4919047335518687150
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Common_LeftTrigger_0: 1141160797057112616
+      PS_LeftBumper_0: -4919047335518687150
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

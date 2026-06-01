@@ -5,7 +5,7 @@ Unity에서 키보드, 마우스, 게임패드 입력을 UI 이미지로 표시�
 ## 패키지
 
 - 패키지 이름: `com.oojjrs.okey`
-- 버전: `1.2.0`
+- 버전: `1.2.1`
 - Unity 버전: `6000.0` 이상
 - 패키지 경로: `Packages/src`
 
@@ -51,6 +51,12 @@ Sprite fromPath = keyPool.GetSprite("/Keyboard/escape");
 문자열 키는 Unity Input System에서 사용하는 키 경로를 기준으로 처리합니다. 알 수 없는 키는 오류 스프라이트를 반환하고, 플랫폼별로 직접 대응하기 어려운 일부 입력은 null 표시용 스프라이트를 반환합니다.
 
 패키지에 포함된 스프라이트와 `MyKeyPool` 에셋은 기본 이미지 세트입니다. 프로젝트에 맞는 버튼 이미지가 필요하면 `MyKeyPool`, `MyKeyPoolKeyboard`, `MyKeyPoolMouse`, `MyKeyPoolGamepad` ScriptableObject를 따로 만들어 별도 애셋팩처럼 구성해 사용할 수 있습니다.
+
+## 1.2.1 변경 사항
+
+- 마우스 입력 스프라이트를 다시 정리해 버튼, 이동, 휠 입력 이미지의 시각 품질을 맞췄습니다.
+- 게임패드 입력 스프라이트를 Xbox와 PlayStation 계열로 분리해 어깨 버튼, 트리거, 얼굴 버튼, 스틱, 방향 패드 이미지가 플랫폼별 형태를 유지하도록 정리했습니다.
+- 런타임 배포에는 필요 없는 원본 PSD 파일을 제거하고 패키지에는 실제 사용하는 PNG 스프라이트와 Unity 메타 정보만 남겼습니다.
 
 ## 1.2.0 변경 사항
 

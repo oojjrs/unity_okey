@@ -32,6 +32,12 @@ Sprite fromPath = keyPool.GetSprite("/Keyboard/escape");
 
 패키지에 포함된 스프라이트와 `MyKeyPool` 에셋은 기본 이미지 세트입니다. 프로젝트에 맞는 버튼 이미지가 필요하면 `MyKeyPool`, `MyKeyPoolKeyboard`, `MyKeyPoolMouse`, `MyKeyPoolGamepad` ScriptableObject를 따로 만들어 별도 애셋팩처럼 구성해 사용할 수 있습니다.
 
+## 1.2.1 변경 사항
+
+- 마우스 입력 스프라이트를 다시 정리해 버튼, 이동, 휠 입력 이미지의 시각 품질을 맞췄습니다.
+- 게임패드 입력 스프라이트를 Xbox와 PlayStation 계열로 분리해 어깨 버튼, 트리거, 얼굴 버튼, 스틱, 방향 패드 이미지가 플랫폼별 형태를 유지하도록 정리했습니다.
+- 런타임 배포에는 필요 없는 원본 PSD 파일을 제거하고 패키지에는 실제 사용하는 PNG 스프라이트와 Unity 메타 정보만 남겼습니다.
+
 ## 1.2.0 변경 사항
 
 - 패키지 내용을 `Packages/src/Runtime` 아래로 정리해 git URL의 `path=/Packages/src` 방식으로 바로 설치할 수 있게 했습니다.

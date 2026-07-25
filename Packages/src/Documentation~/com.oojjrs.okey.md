@@ -14,7 +14,7 @@ https://github.com/oojjrs/unity_okey.git?path=/Packages/src
 
 - `Runtime/Scripts`: 입력 표시용 런타임 스크립트와 asmdef
 - `Runtime/Sprites`: 키보드, 마우스, 게임패드 스프라이트
-- `Runtime/Prefabs`: 입력 표시용 `MyKeyPool` ScriptableObject 에셋
+- `Runtime/Prefabs`: 기본 및 심볼 입력 표시용 `MyKeyPool` ScriptableObject 에셋
 - `Runtime/Atlas`: 스프라이트 아틀라스
 
 ## 사용
@@ -31,6 +31,13 @@ Sprite fromPath = keyPool.GetSprite("/Keyboard/escape");
 문자열 키는 Unity Input System에서 사용하는 키 경로를 기준으로 처리합니다. 알 수 없는 키는 오류 스프라이트를 반환하고, 플랫폼별로 직접 대응하기 어려운 일부 입력은 null 표시용 스프라이트를 반환합니다.
 
 패키지에 포함된 스프라이트와 `MyKeyPool` 에셋은 기본 이미지 세트입니다. 프로젝트에 맞는 버튼 이미지가 필요하면 `MyKeyPool`, `MyKeyPoolKeyboard`, `MyKeyPoolMouse`, `MyKeyPoolGamepad` ScriptableObject를 따로 만들어 별도 애셋팩처럼 구성해 사용할 수 있습니다.
+
+가로로 긴 키를 좁은 UI에 표시할 때는 `MyKeyPoolSymbol` 에셋을 사용할 수 있습니다. 이 에셋은 `Enter`, `Space`, `Shift`, `Tab`, `CapsLock`을 160×128 심볼 스프라이트로 표시하고 나머지 입력에는 기존 스프라이트를 사용합니다.
+
+## 1.2.3 변경 사항
+
+- 가로로 긴 `Enter`, `Space`, `Shift`, `Tab`, `CapsLock` 키를 간결하게 표시하는 160×128 심볼 스프라이트를 추가했습니다.
+- 기존 키 이미지 세트는 유지하면서 심볼 5종을 선택해 사용할 수 있도록 `MyKeyPoolKeyboardSymbol`과 `MyKeyPoolSymbol` 에셋을 추가했습니다.
 
 ## 1.2.2 변경 사항
 

@@ -34,6 +34,10 @@ Sprite fromPath = keyPool.GetSprite("/Keyboard/escape");
 
 가로로 긴 키를 좁은 UI에 표시할 때는 `MyKeyPoolSymbol` 에셋을 사용할 수 있습니다. 이 에셋은 `Enter`, `Space`, `Shift`, `Tab`, `CapsLock`을 160×128 심볼 스프라이트로 표시하고 나머지 입력에는 기존 스프라이트를 사용합니다.
 
+## 1.2.4 변경 사항
+
+- 스프라이트 아틀라스 패킹 회전을 비활성화해 일부 스프라이트가 뒤집혀 표시되는 문제를 수정했습니다.
+
 ## 1.2.3 변경 사항
 
 - 가로로 긴 `Enter`, `Space`, `Shift`, `Tab`, `CapsLock` 키를 간결하게 표시하는 160×128 심볼 스프라이트를 추가했습니다.

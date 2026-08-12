@@ -5,7 +5,7 @@ Unity에서 키보드, 마우스, 게임패드 입력을 UI 이미지로 표시�
 ## 패키지
 
 - 패키지 이름: `com.oojjrs.okey`
-- 버전: `1.2.3`
+- 버전: `1.2.4`
 - Unity 버전: `6000.0` 이상
 - 패키지 경로: `Packages/src`
 
@@ -53,6 +53,10 @@ Sprite fromPath = keyPool.GetSprite("/Keyboard/escape");
 패키지에 포함된 스프라이트와 `MyKeyPool` 에셋은 기본 이미지 세트입니다. 프로젝트에 맞는 버튼 이미지가 필요하면 `MyKeyPool`, `MyKeyPoolKeyboard`, `MyKeyPoolMouse`, `MyKeyPoolGamepad` ScriptableObject를 따로 만들어 별도 애셋팩처럼 구성해 사용할 수 있습니다.
 
 가로로 긴 키를 좁은 UI에 표시할 때는 `MyKeyPoolSymbol` 에셋을 사용할 수 있습니다. 이 에셋은 `Enter`, `Space`, `Shift`, `Tab`, `CapsLock`을 160×128 심볼 스프라이트로 표시하고 나머지 입력에는 기존 스프라이트를 사용합니다.
+
+## 1.2.4 변경 사항
+
+- 스프라이트 아틀라스 패킹 회전을 비활성화해 일부 스프라이트가 뒤집혀 표시되는 문제를 수정했습니다.
 
 ## 1.2.3 변경 사항
 

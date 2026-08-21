@@ -1,80 +1,39 @@
-# OOJJRS' Key Sprite
+# UnityOkey
 
-Unity에서 키보드, 마우스, 게임패드 입력을 UI 이미지로 표시하기 위한 스프라이트와 프리팹 패키지입니다.
-
-## 패키지
-
-- 패키지 이름: `com.oojjrs.okey`
-- 버전: `1.2.4`
-- Unity 버전: `6000.0` 이상
-- 패키지 경로: `Packages/src`
+Unity UI에서 키보드, 마우스, 게임패드 입력을 이미지로 표시하는 스프라이트와 `ScriptableObject` 풀 패키지입니다.
 
 ## 설치
 
-Unity Package Manager의 `Add package from git URL...`에서 다음 주소를 추가합니다.
+Unity Package Manager의 `Add package from git URL...`에 다음 주소를 입력합니다.
 
 ```text
 https://github.com/oojjrs/unity_okey.git?path=/Packages/src
 ```
 
-## 구조
+## 구성
 
-```text
-Packages/src
-  package.json
-  Runtime/
-    Atlas/
-    Prefabs/
-    Scripts/
-    Sprites/
-  Documentation~/
-```
-
-## 포함 내용
-
-- `Runtime/Scripts`: 입력 표시용 런타임 스크립트와 asmdef
-- `Runtime/Sprites`: 키보드, 마우스, 게임패드 스프라이트
-- `Runtime/Prefabs`: 기본 및 심볼 입력 표시용 `MyKeyPool` ScriptableObject 에셋
-- `Runtime/Atlas`: 스프라이트 아틀라스
+| 구성 요소 | 종류 | 용도 |
+| --- | --- | --- |
+| `MyKeyPool` | `ScriptableObject` | 입력 열거형 또는 키 경로를 `Sprite`로 변환 |
+| `MyKeyPoolKeyboard`, `MyKeyPoolMouse`, `MyKeyPoolGamepad` | `ScriptableObject` | 장치별 스프라이트 매핑 보관 |
+| `MyInput` | 열거형 모음 | 키보드, 마우스, PlayStation, Xbox 입력 식별자 제공 |
+| `MyKeyPool.asset`, `MyKeyPoolSymbol.asset` | 기본 풀 에셋 | 일반 키 이미지 또는 긴 키용 심볼 이미지 세트 제공 |
+| `Okey.spriteatlasv2`, `Runtime/Sprites` | 이미지 에셋 | 패키지 기본 스프라이트와 아틀라스 제공 |
 
 ## 사용
-
-`MyKeyPool` 에셋을 참조한 뒤 `GetSprite`를 호출해 입력에 맞는 스프라이트를 가져옵니다.
 
 ```csharp
 Sprite escape = keyPool.GetSprite(MyInput.Keyboard.Escape);
 Sprite leftMouse = keyPool.GetSprite(MyInput.Mouse.LeftButton);
-Sprite southButton = keyPool.GetSprite(MyInput.Controller.Default.ButtonSouth);
 Sprite fromPath = keyPool.GetSprite("/Keyboard/escape");
 ```
 
-문자열 키는 Unity Input System에서 사용하는 키 경로를 기준으로 처리합니다. 알 수 없는 키는 오류 스프라이트를 반환하고, 플랫폼별로 직접 대응하기 어려운 일부 입력은 null 표시용 스프라이트를 반환합니다.
+## 제약
 
-패키지에 포함된 스프라이트와 `MyKeyPool` 에셋은 기본 이미지 세트입니다. 프로젝트에 맞는 버튼 이미지가 필요하면 `MyKeyPool`, `MyKeyPoolKeyboard`, `MyKeyPoolMouse`, `MyKeyPoolGamepad` ScriptableObject를 따로 만들어 별도 애셋팩처럼 구성해 사용할 수 있습니다.
+- Unity `6000.0` 이상을 사용합니다.
+- `GetSprite(string)`은 패키지가 지원하는 Input System 형식의 키 경로를 받으며, 알 수 없는 경로에는 풀에 설정된 오류 스프라이트를 반환합니다.
 
-가로로 긴 키를 좁은 UI에 표시할 때는 `MyKeyPoolSymbol` 에셋을 사용할 수 있습니다. 이 에셋은 `Enter`, `Space`, `Shift`, `Tab`, `CapsLock`을 160×128 심볼 스프라이트로 표시하고 나머지 입력에는 기존 스프라이트를 사용합니다.
+## 문서
 
-## 1.2.4 변경 사항
-
-- 스프라이트 아틀라스 패킹 회전을 비활성화해 일부 스프라이트가 뒤집혀 표시되는 문제를 수정했습니다.
-
-## 1.2.3 변경 사항
-
-- 가로로 긴 `Enter`, `Space`, `Shift`, `Tab`, `CapsLock` 키를 간결하게 표시하는 160×128 심볼 스프라이트를 추가했습니다.
-- 기존 키 이미지 세트는 유지하면서 심볼 5종을 선택해 사용할 수 있도록 `MyKeyPoolKeyboardSymbol`과 `MyKeyPoolSymbol` 에셋을 추가했습니다.
-
-## 1.2.2 변경 사항
-
-- 마우스 입력 스프라이트를 다시 정리해 버튼, 이동, 휠 입력 이미지의 시각 품질을 맞췄습니다.
-- 게임패드 입력 스프라이트를 Xbox와 PlayStation 계열로 분리해 어깨 버튼, 트리거, 얼굴 버튼, 스틱, 방향 패드 이미지가 플랫폼별 형태를 유지하도록 정리했습니다.
-- 런타임 배포에는 필요 없는 원본 PSD 파일을 제거하고 패키지에는 실제 사용하는 PNG 스프라이트와 Unity 메타 정보만 남겼습니다.
-
-## 1.2.0 변경 사항
-
-- 패키지 내용을 `Packages/src/Runtime` 아래로 정리해 git URL의 `path=/Packages/src` 방식으로 바로 설치할 수 있게 했습니다.
-- `MyKeyPool`과 키보드, 마우스, 게임패드 풀을 프리팹에서 ScriptableObject 에셋으로 전환해 기본 이미지 세트와 사용자 정의 이미지 세트를 분리해 구성할 수 있게 했습니다.
-
-## 개발 메모
-
-테스트용 씬과 개발 확인용 에셋은 패키지에 포함하지 않고 `Assets` 아래에 둡니다.
+- [패키지 상세 문서](Packages/src/Documentation~/com.oojjrs.okey.md)
 

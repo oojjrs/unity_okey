@@ -16,15 +16,15 @@ https://github.com/oojjrs/unity_okey.git?path=/Packages/src
 | --- | --- | --- |
 | `MyKeyPool` | `ScriptableObject` | 입력 열거형 또는 키 경로를 `Sprite`로 변환 |
 | `MyKeyPoolKeyboard`, `MyKeyPoolMouse`, `MyKeyPoolGamepad` | `ScriptableObject` | 장치별 스프라이트 매핑 보관 |
-| `MyInput` | 열거형 모음 | 키보드, 마우스, PlayStation, Xbox 입력 식별자 제공 |
+| `Okey` | 열거형 모음 | 키보드, 마우스, PlayStation, Xbox 입력 식별자 제공 |
 | `MyKeyPool.asset`, `MyKeyPoolSymbol.asset` | 기본 풀 에셋 | 일반 키 이미지 또는 긴 키용 심볼 이미지 세트 제공 |
 | `Okey.spriteatlasv2`, `Runtime/Sprites` | 이미지 에셋 | 패키지 기본 스프라이트와 아틀라스 제공 |
 
 ## 사용
 
 ```csharp
-Sprite escape = keyPool.GetSprite(MyInput.Keyboard.Escape);
-Sprite leftMouse = keyPool.GetSprite(MyInput.Mouse.LeftButton);
+Sprite escape = keyPool.GetSprite(Okey.Keyboard.Escape);
+Sprite leftMouse = keyPool.GetSprite(Okey.Mouse.LeftButton);
 Sprite fromPath = keyPool.GetSprite("/Keyboard/escape");
 ```
 

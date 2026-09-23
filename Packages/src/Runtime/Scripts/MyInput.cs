@@ -1,4 +1,4 @@
-﻿public static class MyInput
+﻿public static class Okey
 {
     public static class Controller
     {

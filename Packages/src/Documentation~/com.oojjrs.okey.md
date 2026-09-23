@@ -22,9 +22,9 @@ https://github.com/oojjrs/unity_okey.git?path=/Packages/src
 `MyKeyPool` 에셋을 참조한 뒤 `GetSprite`를 호출해 입력에 맞는 스프라이트를 가져옵니다.
 
 ```csharp
-Sprite escape = keyPool.GetSprite(MyInput.Keyboard.Escape);
-Sprite leftMouse = keyPool.GetSprite(MyInput.Mouse.LeftButton);
-Sprite southButton = keyPool.GetSprite(MyInput.Controller.Default.ButtonSouth);
+Sprite escape = keyPool.GetSprite(Okey.Keyboard.Escape);
+Sprite leftMouse = keyPool.GetSprite(Okey.Mouse.LeftButton);
+Sprite southButton = keyPool.GetSprite(Okey.Controller.Default.ButtonSouth);
 Sprite fromPath = keyPool.GetSprite("/Keyboard/escape");
 ```
 
@@ -33,6 +33,10 @@ Sprite fromPath = keyPool.GetSprite("/Keyboard/escape");
 패키지에 포함된 스프라이트와 `MyKeyPool` 에셋은 기본 이미지 세트입니다. 프로젝트에 맞는 버튼 이미지가 필요하면 `MyKeyPool`, `MyKeyPoolKeyboard`, `MyKeyPoolMouse`, `MyKeyPoolGamepad` ScriptableObject를 따로 만들어 별도 애셋팩처럼 구성해 사용할 수 있습니다.
 
 가로로 긴 키를 좁은 UI에 표시할 때는 `MyKeyPoolSymbol` 에셋을 사용할 수 있습니다. 이 에셋은 `Enter`, `Space`, `Shift`, `Tab`, `CapsLock`을 160×128 심볼 스프라이트로 표시하고 나머지 입력에는 기존 스프라이트를 사용합니다.
+
+## 1.2.5 변경 사항
+
+- 입력 식별자 타입 `MyInput`을 `Okey`로 변경했습니다. 기존 열거형 사용 코드는 `Okey.Keyboard`, `Okey.Mouse`, `Okey.Controller`로 바꿔야 합니다.
 
 ## 1.2.4 변경 사항
 
